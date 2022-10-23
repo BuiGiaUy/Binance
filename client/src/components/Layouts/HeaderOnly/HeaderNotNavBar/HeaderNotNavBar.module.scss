@@ -1,0 +1,130 @@
+.wrap {
+    flex-direction: column;
+    min-height: 100vh;
+    color: #eaecef;
+    background-color: #181a20;
+}
+
+.header {
+    width: 100%;
+    background-color: #181a20;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 64px;
+    color: #eaecef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: var(--hover);
+    width: 120px;
+    height: 24px;
+    margin: 0 8px 0 8px;
+
+    & svg {
+        color: var(--hover);
+    }
+}
+
+.logo-svg {
+    padding: auto;
+    fill: currentColor;
+    font-size: 24px;
+}
+
+// Rỗng
+.space {
+    display: flex;
+    width: 200px;
+}
+
+// Đăng nhập
+.login {
+    display: flex;
+    font-size: 13.5px;
+    padding: 0px 12px;
+}
+.login-item {
+    background-color: #181a20;
+    color: var(--white);
+
+    outline: none;
+    border: none;
+
+    &:hover {
+        color: rgb(240, 185, 11);
+        background-color: #181a20;
+    }
+    & span {
+        padding-top: 2px;
+    }
+}
+
+.register-item {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #1e2329;
+    background-color: #fcd535;
+    justify-content: center;
+
+    outline: none;
+    border: none;
+
+    &:hover {
+        border-radius: 5px;
+        color: #1e2329;
+
+        box-shadow: none;
+        background-image: none;
+        background-color: rgb(252, 213, 53);
+        opacity: 0.9;
+    }
+    & span {
+        padding-top: 2px;
+    }
+}
+
+//Trình thông dụng
+.tools {
+    display: flex;
+    font-size: 13.5px;
+}
+
+.tools-list {
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+}
+
+.tools-item {
+    color: #eaecef;
+    background-color: #181a20;
+    font-size: 13.5px;
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--hover);
+    }
+}
+
+.tools-item-space {
+    background-color: #5e6673;
+    width: 1px;
+    height: 13px;
+}
+.tools-sun {
+    margin-left: 8px;
+    margin-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--hover);
+    }
+}
+
+.spinner {
+    color: #fcd535;
+}
